@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D258901C998688C6307A7B2D /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = D25891FD14260261A714CD50 /* gradient.png */; };
+		D25890EFCA409CF32BEA69D5 /* CLDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D258954B02E8910BB06F978E /* CLDRootViewController.m */; };
+		D2589264059275AECF321055 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2589444697A3935AE66E5C5 /* QuartzCore.framework */; };
+		D258926A9C922A04826960C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2589BD50F34F0494BFA738C /* InfoPlist.strings */; };
+		D25893D4A1C0241889F0AF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25899FD1059D94B5EF9D1CE /* Foundation.framework */; };
+		D25893F795EB6B9CDF1C9158 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25896E86DD76FD4ABD1B105 /* Default@2x.png */; };
+		D2589421041FB8DFA245E45A /* CLDTypicalNaiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D258972C5A559CCEBC469D72 /* CLDTypicalNaiveView.m */; };
+		D258948597F129F986C24627 /* lucy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25893708652BECFBE691F78 /* lucy@2x.jpg */; };
+		D25895B0060D889A8F051584 /* CLDTypicalCGView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2589D812D15809C2AD3A30D /* CLDTypicalCGView.m */; };
+		D258969FF686DC6C31FA8463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25893C4A17CFEB8B2AF44AC /* UIKit.framework */; };
+		D2589737A9930ADB93D25611 /* lucy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2589D964222278EE8BF6524 /* lucy.jpg */; };
+		D258976208F0AB4220437A11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D25890C571AAD2D0A4E9DA34 /* Default.png */; };
+		D25897E4C51391E73201B4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25890A35D0BA40F4B8B8B06 /* CoreGraphics.framework */; };
+		D25897FA134F75D6323F83F8 /* gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2589B943FD409A8A03DA2CE /* gradient@2x.png */; };
+		D25898836675A0A12AAAADB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2589D99B5BD0A5B37040D08 /* Default-568h@2x.png */; };
+		D2589E36BA85176D9653CAA6 /* CLDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2589A762FBFB889AD0B88C0 /* CLDAppDelegate.m */; };
+		D2589E470E6B475088016AF6 /* CLDTypicalLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2589A14222BE805AF6DAEF5 /* CLDTypicalLayerView.m */; };
+		D2589F4C5C2179BFC10B9212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D258960A798D2C90E2BE6900 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2589028C27AEB8B6125A63B /* CLDTypicalNaiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDTypicalNaiveView.h; sourceTree = "<group>"; };
+		D25890A35D0BA40F4B8B8B06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D25890C571AAD2D0A4E9DA34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D25890EEEAF66CC1220A857E /* CLDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDAppDelegate.h; sourceTree = "<group>"; };
+		D25891FD14260261A714CD50 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		D258922071996305BB02EE2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D258925A7A3AB3758E2E4910 /* CostOfLayersVsDrawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CostOfLayersVsDrawing-Prefix.pch"; sourceTree = "<group>"; };
+		D25893708652BECFBE691F78 /* lucy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lucy@2x.jpg"; sourceTree = "<group>"; };
+		D25893C4A17CFEB8B2AF44AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2589444697A3935AE66E5C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D258950762E862CC1CB8A8CB /* CLDTypicalLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDTypicalLayerView.h; sourceTree = "<group>"; };
+		D258954B02E8910BB06F978E /* CLDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDRootViewController.m; sourceTree = "<group>"; };
+		D258954B0AB66FEE412EC7A4 /* CLDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDRootViewController.h; sourceTree = "<group>"; };
+		D258960A798D2C90E2BE6900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25896E86DD76FD4ABD1B105 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D258972C5A559CCEBC469D72 /* CLDTypicalNaiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDTypicalNaiveView.m; sourceTree = "<group>"; };
+		D258979388269788B016D27A /* CLDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDConfig.h; sourceTree = "<group>"; };
+		D25899FD1059D94B5EF9D1CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2589A14222BE805AF6DAEF5 /* CLDTypicalLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDTypicalLayerView.m; sourceTree = "<group>"; };
+		D2589A762FBFB889AD0B88C0 /* CLDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDAppDelegate.m; sourceTree = "<group>"; };
+		D2589B7717320E910A551A2C /* CLDTypicalCGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDTypicalCGView.h; sourceTree = "<group>"; };
+		D2589B943FD409A8A03DA2CE /* gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient@2x.png"; sourceTree = "<group>"; };
+		D2589D812D15809C2AD3A30D /* CLDTypicalCGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDTypicalCGView.m; sourceTree = "<group>"; };
+		D2589D964222278EE8BF6524 /* lucy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucy.jpg; sourceTree = "<group>"; };
+		D2589D99B5BD0A5B37040D08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D2589E09B07E563B1A667016 /* CostOfLayersVsDrawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CostOfLayersVsDrawing-Info.plist"; sourceTree = "<group>"; };
+		D2589FE37FD8E8C4EEB3206D /* CostOfLayersVsDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostOfLayersVsDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25891C1F97F10AFF48D1423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D258969FF686DC6C31FA8463 /* UIKit.framework in Frameworks */,
+				D25893D4A1C0241889F0AF02 /* Foundation.framework in Frameworks */,
+				D25897E4C51391E73201B4A7 /* CoreGraphics.framework in Frameworks */,
+				D2589264059275AECF321055 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D258911CBEFA7559CE65A6E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D25891FD14260261A714CD50 /* gradient.png */,
+				D2589D964222278EE8BF6524 /* lucy.jpg */,
+				D2589B943FD409A8A03DA2CE /* gradient@2x.png */,
+				D25893708652BECFBE691F78 /* lucy@2x.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D25892E23DB9DB0A9F5C554F /* CostOfLayersVsDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				D25896326439DBB37048DF15 /* Supporting Files */,
+				D25890EEEAF66CC1220A857E /* CLDAppDelegate.h */,
+				D2589A762FBFB889AD0B88C0 /* CLDAppDelegate.m */,
+				D258911CBEFA7559CE65A6E1 /* Resources */,
+				D258954B02E8910BB06F978E /* CLDRootViewController.m */,
+				D258954B0AB66FEE412EC7A4 /* CLDRootViewController.h */,
+				D258950762E862CC1CB8A8CB /* CLDTypicalLayerView.h */,
+				D258972C5A559CCEBC469D72 /* CLDTypicalNaiveView.m */,
+				D2589028C27AEB8B6125A63B /* CLDTypicalNaiveView.h */,
+				D2589B7717320E910A551A2C /* CLDTypicalCGView.h */,
+				D2589D812D15809C2AD3A30D /* CLDTypicalCGView.m */,
+				D2589A14222BE805AF6DAEF5 /* CLDTypicalLayerView.m */,
+				D258979388269788B016D27A /* CLDConfig.h */,
+			);
+			path = CostOfLayersVsDrawing;
+			sourceTree = "<group>";
+		};
+		D2589512072E4E6C1EDEC43B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2589FE37FD8E8C4EEB3206D /* CostOfLayersVsDrawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25896326439DBB37048DF15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2589E09B07E563B1A667016 /* CostOfLayersVsDrawing-Info.plist */,
+				D2589BD50F34F0494BFA738C /* InfoPlist.strings */,
+				D258960A798D2C90E2BE6900 /* main.m */,
+				D258925A7A3AB3758E2E4910 /* CostOfLayersVsDrawing-Prefix.pch */,
+				D25890C571AAD2D0A4E9DA34 /* Default.png */,
+				D25896E86DD76FD4ABD1B105 /* Default@2x.png */,
+				D2589D99B5BD0A5B37040D08 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2589A548CC5D2CCC763910C = {
+			isa = PBXGroup;
+			children = (
+				D2589512072E4E6C1EDEC43B /* Products */,
+				D2589EBA2567CE0968218828 /* Frameworks */,
+				D25892E23DB9DB0A9F5C554F /* CostOfLayersVsDrawing */,
+			);
+			sourceTree = "<group>";
+		};
+		D2589EBA2567CE0968218828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25893C4A17CFEB8B2AF44AC /* UIKit.framework */,
+				D25899FD1059D94B5EF9D1CE /* Foundation.framework */,
+				D25890A35D0BA40F4B8B8B06 /* CoreGraphics.framework */,
+				D2589444697A3935AE66E5C5 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25893CAE9AE6DAE52ACB2B9 /* CostOfLayersVsDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2589F31C762CD0CE6257BCC /* Build configuration list for PBXNativeTarget "CostOfLayersVsDrawing" */;
+			buildPhases = (
+				D2589C982961675C3550AE4F /* Sources */,
+				D25891C1F97F10AFF48D1423 /* Frameworks */,
+				D2589B389A43747F1E8C4E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CostOfLayersVsDrawing;
+			productName = CostOfLayersVsDrawing;
+			productReference = D2589FE37FD8E8C4EEB3206D /* CostOfLayersVsDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25898BAB1A643518E4B3627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = D2589E78DFE352751BA659AA /* Build configuration list for PBXProject "CostOfLayersVsDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2589A548CC5D2CCC763910C;
+			productRefGroup = D2589512072E4E6C1EDEC43B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25893CAE9AE6DAE52ACB2B9 /* CostOfLayersVsDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2589B389A43747F1E8C4E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D258926A9C922A04826960C0 /* InfoPlist.strings in Resources */,
+				D258976208F0AB4220437A11 /* Default.png in Resources */,
+				D25893F795EB6B9CDF1C9158 /* Default@2x.png in Resources */,
+				D25898836675A0A12AAAADB9 /* Default-568h@2x.png in Resources */,
+				D258901C998688C6307A7B2D /* gradient.png in Resources */,
+				D2589737A9930ADB93D25611 /* lucy.jpg in Resources */,
+				D25897FA134F75D6323F83F8 /* gradient@2x.png in Resources */,
+				D258948597F129F986C24627 /* lucy@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2589C982961675C3550AE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2589F4C5C2179BFC10B9212 /* main.m in Sources */,
+				D2589E36BA85176D9653CAA6 /* CLDAppDelegate.m in Sources */,
+				D25890EFCA409CF32BEA69D5 /* CLDRootViewController.m in Sources */,
+				D2589421041FB8DFA245E45A /* CLDTypicalNaiveView.m in Sources */,
+				D25895B0060D889A8F051584 /* CLDTypicalCGView.m in Sources */,
+				D2589E470E6B475088016AF6 /* CLDTypicalLayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2589BD50F34F0494BFA738C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D258922071996305BB02EE2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D25897465ED2A7179CB4C091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CostOfLayersVsDrawing/CostOfLayersVsDrawing-Prefix.pch";
+				INFOPLIST_FILE = "CostOfLayersVsDrawing/CostOfLayersVsDrawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D25899CD12D6E253C4909A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2589A26CDFA8B4734E8B0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2589A281E351E3079796F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CostOfLayersVsDrawing/CostOfLayersVsDrawing-Prefix.pch";
+				INFOPLIST_FILE = "CostOfLayersVsDrawing/CostOfLayersVsDrawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2589E78DFE352751BA659AA /* Build configuration list for PBXProject "CostOfLayersVsDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25899CD12D6E253C4909A4A /* Release */,
+				D2589A26CDFA8B4734E8B0EC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2589F31C762CD0CE6257BCC /* Build configuration list for PBXNativeTarget "CostOfLayersVsDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25897465ED2A7179CB4C091 /* Release */,
+				D2589A281E351E3079796F8F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25898BAB1A643518E4B3627 /* Project object */;
+}

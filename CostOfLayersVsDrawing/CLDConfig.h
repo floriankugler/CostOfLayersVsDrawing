@@ -1,0 +1,2 @@
+#define VIEW_CREATION
+//#define GRADIENT_AS_IMAGE

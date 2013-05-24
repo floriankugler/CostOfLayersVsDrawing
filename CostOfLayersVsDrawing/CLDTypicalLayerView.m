@@ -22,7 +22,7 @@
 }
 
 - (void)setup {
-    #ifdef GRADIENT_AS_IMAGE
+    #ifdef DRAW_GRADIENT_AS_IMAGE
     CALayer* gradientLayer = [[CALayer alloc] init];
     gradientLayer.contents = (__bridge id) [UIImage imageNamed:@"gradient.png"].CGImage;
     #else

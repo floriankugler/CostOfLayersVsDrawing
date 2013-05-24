@@ -28,7 +28,7 @@
 - (void)startProfiling {
     displayTime = 0;
     frameCounter = 0;
-    numberOfViews = 5;
+    numberOfViews = INITIAL_NUMBER_OF_VIEWS;
     [self recreateViews];
     #ifdef VIEW_CREATION
     CADisplayLink* displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(nextCreateFrame:)];
@@ -45,7 +45,7 @@
     frameCounter++;
     if (frameCounter > 60) {
         NSLog(@"%d - %f", numberOfViews, displayTime / 60);
-        numberOfViews += 5;
+        numberOfViews += INCREMENT_NUMBER_OF_VIEWS_BY;
         displayTime = 0;
         frameCounter = 0;
     }
@@ -68,10 +68,19 @@
 
     for (NSUInteger i = 0; i < numberOfViews; i++) {
         CGRect frame = CGRectMake(0, self.randomNumber * containerView.bounds.size.height, containerView.bounds.size.width, 100);
-//        UIView* subview = [[CLDTypicalNaiveView alloc] initWithFrame:frame];
-//        UIView* subview = [[CLDTypicalLayerView alloc] initWithFrame:frame];
-        UIView* subview = [[CLDTypicalCGView alloc] initWithFrame:frame];
-        [containerView addSubview:subview];
+        UIView* subview;
+        #ifdef SUB_VIEWS
+        subview = [[CLDTypicalNaiveView alloc] initWithFrame:frame];
+        #endif
+        #ifdef SUB_LAYERS
+        subview = [[CLDTypicalLayerView alloc] initWithFrame:frame];
+        #endif
+        #ifdef DRAWING
+        subview = [[CLDTypicalCGView alloc] initWithFrame:frame];
+        #endif
+        if (subview) {
+            [containerView addSubview:subview];
+        }
     }
 
     [self.view addSubview:containerView];

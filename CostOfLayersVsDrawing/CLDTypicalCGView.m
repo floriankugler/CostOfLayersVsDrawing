@@ -16,7 +16,7 @@
 - (void)drawRect:(CGRect)rect {
     CGContextRef ctx = UIGraphicsGetCurrentContext();
 
-    #ifdef GRADIENT_AS_IMAGE
+    #ifdef DRAW_GRADIENT_AS_IMAGE
 
     [[UIImage imageNamed:@"gradient.png"] drawAtPoint:CGPointZero];
 

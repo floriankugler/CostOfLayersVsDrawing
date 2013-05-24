@@ -23,7 +23,7 @@
 }
 
 - (void)setup {
-    #ifdef GRADIENT_AS_IMAGE
+    #ifdef DRAW_GRADIENT_AS_IMAGE
     UIImageView* gradientView = [[UIImageView alloc] initWithFrame:self.bounds];
     gradientView.image = [UIImage imageNamed:@"gradient.png"];
     #else
